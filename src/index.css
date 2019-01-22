@@ -6,9 +6,44 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background: wheat;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+/* Code for landing page */
+
+.roomList {
+  position: relative;
+  top: 0;
+  text-align: left;
+  width: 200px;
+  height: 100vh;
+  background: rgb(119,200,119);
+  color: white;
+}
+.banner--text {
+  margin: 0px 5px;
+}
+
+button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 200px;
+  height: 
+}
+input{
+      border: none;
+      border-bottom: 2px solid black;
+      padding: 5px 10px;
+      margin: 10px;
+      background: transparent!important;
+  }
+  input:placeholder{
+     background: white!important;
+  }
