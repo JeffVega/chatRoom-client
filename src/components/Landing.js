@@ -7,7 +7,7 @@ export default class Landing extends React.Component{
         return(
             <div className="landing">
             <RoomList/>
-            <NewRoomForm/>
+            <SendMessageForm/>
             </div>
         )
     }

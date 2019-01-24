@@ -17,6 +17,7 @@ code {
 
 /* Code for landing page */
 
+
 .roomList {
   position: relative;
   top: 0;
@@ -32,18 +33,30 @@ code {
 
 button {
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
+  padding: 10px;
   left: 0;
   width: 200px;
-  height: 
+  border: none;
+  background: rgb(134,134,219);
+  color: white;
+  transition: 2s all;
 }
-input{
+button:hover{
+  background: rgb(75,75,223);
+  cursor: pointer;
+}
+channel-input{
+      width: 150px;
       border: none;
       border-bottom: 2px solid black;
       padding: 5px 10px;
       margin: 10px;
-      background: transparent!important;
-  }
-  input:placeholder{
-     background: white!important;
-  }
+      background: transparent;
+      color: white;
+      font-size: 20px;
+}
+
+ channel-input:focus{
+  outline: none;
+}
